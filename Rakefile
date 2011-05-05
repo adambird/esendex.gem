@@ -10,6 +10,7 @@ end
 require 'rake'
 
 require 'jeweler'
+require './lib/esendex/version'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "esendex"
@@ -19,6 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = ""
   gem.email = "support@esendex.com"
   gem.authors = ["Adam Bird"]
+  gem.version = Esendex::Version::STRING
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   gem.add_dependency 'nokogiri', '>=1.4.4'
