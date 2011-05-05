@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{esendex}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adam Bird"]
@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
     "lib/esendex/exceptions.rb",
     "lib/esendex/message.rb",
     "lib/esendex/message_batch_submission.rb",
+    "lib/esendex/version.rb",
     "test/helper.rb",
     "test/integration/test_account.rb",
     "test/test_account.rb",
