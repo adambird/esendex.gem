@@ -2,7 +2,7 @@
 
 Gem for interacting with the Esendex API
 
-This is in very early stages of development but supports sending one
+This is in very early stages of development but supports sending one or more messages either straight away or at a scheduled time
 
 == Usage
 
@@ -24,10 +24,6 @@ Multiple messages are sent by passing an array of Messages to the send_messages 
 	
 	batch_id = account.send_messages([Message.new("07777111222", "Hello"), Message.new("07777111333", "Hi")])
 	
-== Building
-
-The plan is to publish this so you can perform gem install but if you can't wait then feel free to download 
-
 === Testing
 
 	rake test
