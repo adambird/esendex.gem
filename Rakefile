@@ -14,7 +14,7 @@ require './lib/esendex/version'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "esendex"
-  gem.homepage = "http://github.com/esendex/esendex.gem"
+  gem.homepage = "http://github.com/adambird/esendex.gem"
   gem.license = "MIT"
   gem.summary = "for interacting with the Esendex API"
   gem.description = ""
